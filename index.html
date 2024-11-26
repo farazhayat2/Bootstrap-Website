@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Task-4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white ">
+        <div class="container">
+          <i class="fa-solid fa-cart-shopping me-2 mt-2"></i>
+          <a class="navbar-brand fs-4 fw-bold mt-2" href="#">FreshCart</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex w-100" role="search">
+              <i class="fa-solid fa-magnifying-glass position-relative start-50 mt-3 p-1 ms-5 "></i>
+              <input class="form-control me-4 w-50 ms-2 mt-2" type="search" placeholder="Search For products" aria-label="Search"> 
+              <button class="btn btn-outline-success mt-2" type="submit"><i class="fa-solid fa-location-dot me-1"></i>Location</button>
+            </form>
+            
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-user ms-3"></i>
+            <i class="fa-sharp fa-solid fa-bag-shopping ms-3"></i>
+            <div class="cddd">
+            <ul class="nav-item dropdown border bg-success text-white text-center p-2 mt-3 rounded-3 position-absolute top-100 start-0 ms-5 "> 
+              <a class="nav-link dropdown-toggle ms-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-list"></i> Departments
+                </a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <ul class="nav-item dropdown position-absolute top-100 mt-4 ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Home
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+             <ul class="nav-item dropdown ms-5 position-absolute top-0 ">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            <ul class="nav-item dropdown ms-5 position-absolute top-0 ">
+                <a class="nav-link dropdown-toggle  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Stores
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            <ul class="nav-item dropdown ms-5 position-absolute top-0 ">
+                <a class="nav-link dropdown-toggle fw-normal  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Mega menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            <ul class="nav-item dropdown ms-5 position-absolute top-0 start-50 ">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul> 
+            <ul class="nav-item dropdown ms-5 position-absolute top-0 ">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Account
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                <div class="container ms-5 position-absolute top-0 d-flex bg-none  ">
+                  <button class="bg-white border border-white ms-4">Dashboard</button>
+                <button  class="bg-white border border-white">Docs</button>
+                </div>
+             
+                      </div>
+
+      </nav>
+      <br><br><br>
+      <hr>
+      <div class="container position-relative ms-5 ">
+        <img src="c:\Users\N TECH\Downloads\slide-2.jpg"  class="ms-3 rounded-3 mt-3 w-100" alt="">
+        <div class="text position-absolute bottom-0 ms-5">
+          <button class="rounded-5 bg-warning border fw-bold">Free Shipping-order over 100$</button>
+          <h1 class=" fw-bold mt-4">Free Shipping on orders <br>over 100$ </h1>
+          <p class="mt-4">Free Shipping to First-Time Customers Only, After promotions <br>and discounts are applied.</p>
+          <button class=" mb-3 mt-4 p-2 bg-black text-white border rounded-3">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="container">
+        <h4 class="mt-5">Featured Categories</h4>
+        <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\category-snack-munchies.jpg" class=" mt-4 ms-4 border border-2 p-5 rounded-3" alt="">
+        <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\category-bakery-biscuits.jpg" class=" mt-4 ms-5 border border-2 p-5 rounded-3" alt="">
+        <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\category-chicken-meat-fish.jpg" class=" mt-4 ms-5 border border-2 p-5 rounded-3" alt="">
+        <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\category-cleaning-essentials.jpg" class=" mt-4 ms-5 border border-2 p-5 rounded-3" alt="">
+      </div>
+      <div class="container ms-3 w-100 position-relative d-flex">
+        <img src="c:\Users\N TECH\Downloads\grocery-banner.png" class="w-50 mt-5 rounded-3 ms-4" alt="">
+        <img src="c:\Users\N TECH\Downloads\grocery-banner-2.jpg" class="w-50 mt-5 ms-4 " alt="">
+        
+        <div class="text position-absolute bottom-0">
+          <h3 class="fw-bold  ms-5">Fruits & Vegetables</h3>
+          <p class="ms-5">Get upto 30% off</p>
+          <button class=" ms-5 mb-4 mt-3 p-2 bg-black text-white border rounded-3">Shop Now</button>
+        </div>
+        <div class="text2 position-absolute bottom-0 start-50 ms-5">
+          <h3 class="ms-4 fw-bold">Freshly Baked Buns</h3>
+          <p class="ms-4">Get upto 25% off</p>
+          <button class=" ms-4 mb-4 mt-3 p-2 bg-black text-white border rounded-3">Shop Now</button>
+        </div>
+      </div>
+      <h4 class="mt-5 ms-5">Popular Products</h4>
+      <div class="container d-flex">
+        <div class="card mt-4 w-25 me-3">
+          <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-1.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <p class="opacity-50">Snack & Munchies</p>
+            <h6 class="card-title fw-bold">Haldiram's Sev Bhujia</h6>
+            <h3>&starf;&starf;&starf;&starf;&star;</h3>
+            <p class="fw-bold">21.6$</p>
+            <button class="bg-success text-white border position-absolute start-50 bottom-0 mb-4 ms-5 p-2 rounded-3 "><i class="fa-solid fa-plus"></i>Add</button>
+          </div>
+          
+        </div>
+        <div class="card mt-4 w-25 me-3  ">
+          <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-2.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <p class="opacity-50">Bakery & Biscuits</p>
+            <h6 class="card-title fw-bold">NutriChoice Digestive</h6>
+            <h3>&starf;&starf;&starf;&starf;&star;</h3>
+            <p class="fw-bold">24$</p>
+            <button class="bg-success text-white border position-absolute start-50 bottom-0 mb-4 ms-5 p-2 rounded-3 "><i class="fa-solid fa-plus"></i>Add</button>
+          </div>
+        </div>
+        <div class="card mt-4 w-25 me-3 ">
+          <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-3.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <p class="opacity-50">Snack & Munchies</p>
+            <h6 class="card-title fw-bold">Cadbury 5 Star Chocolate</h6>
+            <h3>&starf;&starf;&starf;&starf;&star;</h3>
+            <p class="fw-bold">35$</p>
+            <button class="bg-success text-white border position-absolute start-50 bottom-0 mb-4 ms-5 p-2 rounded-3 "><i class="fa-solid fa-plus"></i>Add</button>
+          </div>
+        </div>
+        <div class="card mt-4 w-25 ">
+          <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-4.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <p class="opacity-50">Snack & Munchies</p>
+            <h6 class="card-title fw-bold">Onion Flavour Potato</h6>
+            <h3>&starf;&starf;&starf;&starf;&star;</h3>
+            <p class="fw-bold">3$</p>
+            <button class="bg-success text-white border position-absolute start-50 bottom-0 mb-4 ms-5 p-2 rounded-3 "><i class="fa-solid fa-plus"></i>Add</button>
+          </div>
+        </div>
+      </div>
+      <div class="container d-flex flex-row-reverse">
+        <div class="card mt-4 w-25 me-3">
+          <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-1.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <p class="opacity-50">Snack & Munchies</p>
+            <h6 class="card-title fw-bold">Haldiram's Sev Bhujia</h6>
+            <h3>&starf;&starf;&starf;&starf;&star;</h3>
+            <p class="fw-bold">21.6$</p>
+            <button class="bg-success text-white border position-absolute start-50 bottom-0 mb-4 ms-5 p-2 rounded-3 "><i class="fa-solid fa-plus"></i>Add</button>
+          </div>
+          
+        </div>
+        <div class="card mt-4 w-25 me-3  ">
+          <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-2.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <p class="opacity-50">Bakery & Biscuits</p>
+            <h6 class="card-title fw-bold">NutriChoice Digestive</h6>
+            <h3>&starf;&starf;&starf;&starf;&star;</h3>
+            <p class="fw-bold">24$</p>
+            <button class="bg-success text-white border position-absolute start-50 bottom-0 mb-4 ms-5 p-2 rounded-3 "><i class="fa-solid fa-plus"></i>Add</button>
+          </div>
+        </div>
+        <div class="card mt-4 w-25 me-3 ms-4">
+          <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-3.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <p class="opacity-50">Snack & Munchies</p>
+            <h6 class="card-title fw-bold">Cadbury 5 Star Chocolate</h6>
+            <h3>&starf;&starf;&starf;&starf;&star;</h3>
+            <p class="fw-bold">35$</p>
+            <button class="bg-success text-white border position-absolute start-50 bottom-0 mb-4 ms-5 p-2 rounded-3 "><i class="fa-solid fa-plus"></i>Add</button>
+          </div>
+        </div>
+        <div class="card mt-4 w-25 ms-1 ">
+          <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-4.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <p class="opacity-50">Snack & Munchies</p>
+            <h6 class="card-title fw-bold">Onion Flavour Potato</h6>
+            <h3>&starf;&starf;&starf;&starf;&star;</h3>
+            <p class="fw-bold">3$</p>
+            <button class="bg-success text-white border position-absolute start-50 bottom-0 mb-4 ms-5 p-2 rounded-3 "><i class="fa-solid fa-plus"></i>Add</button>
+          </div>
+        </div>
+      </div>
+      <div class="container d-flex">
+        <div class="card mt-4 w-25 me-3">
+          <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-1.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <p class="opacity-50">Snack & Munchies</p>
+            <h6 class="card-title fw-bold">Haldiram's Sev Bhujia</h6>
+            <h3>&starf;&starf;&starf;&starf;&star;</h3>
+            <p class="fw-bold">21.6$</p>
+            <button class="bg-success text-white border position-absolute start-50 bottom-0 mb-4 ms-5 p-2 rounded-3 "><i class="fa-solid fa-plus"></i>Add</button>
+          </div>
+          
+        </div>
+        <div class="card mt-4 w-25 me-3  ">
+          <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-2.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <p class="opacity-50">Bakery & Biscuits</p>
+            <h6 class="card-title fw-bold">NutriChoice Digestive</h6>
+            <h3>&starf;&starf;&starf;&starf;&star;</h3>
+            <p class="fw-bold">24$</p>
+            <button class="bg-success text-white border position-absolute start-50 bottom-0 mb-4 ms-5 p-2 rounded-3 "><i class="fa-solid fa-plus"></i>Add</button>
+          </div>
+        </div>
+        <div class="card mt-4 w-25 me-3 ">
+          <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-3.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <p class="opacity-50">Snack & Munchies</p>
+            <h6 class="card-title fw-bold">Cadbury 5 Star Chocolate</h6>
+            <h3>&starf;&starf;&starf;&starf;&star;</h3>
+            <p class="fw-bold">35$</p>
+            <button class="bg-success text-white border position-absolute start-50 bottom-0 mb-4 ms-5 p-2 rounded-3 "><i class="fa-solid fa-plus"></i>Add</button>
+          </div>
+        </div>
+        <div class="card mt-4 w-25 ">
+          <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-4.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <p class="opacity-50">Snack & Munchies</p>
+            <h6 class="card-title fw-bold">Onion Flavour Potato</h6>
+            <h3>&starf;&starf;&starf;&starf;&star;</h3>
+            <p class="fw-bold">3$</p>
+            <button class="bg-success text-white border position-absolute start-50 bottom-0 mb-4 ms-5 p-2 rounded-3 "><i class="fa-solid fa-plus"></i>Add</button>
+          </div>
+        </div>
+      </div>
+      <h4 class=" mt-5 ms-5">Daily Best Sells</h4>
+      <div class="container d-flex">
+      <div class="position-relative d-flex">
+        <img src="c:\Users\N TECH\Downloads\banner-deal.jpg" class="mt-3 rounded-3  " alt="">
+      <div class=" position-absolute top-0">
+        <h2 class="mt-5 ms-4 text-white fw-bold">100% Organic <br>Coffee Beans.</h2>
+        <p class="text-white ms-4">Get the Best Deal Before <br>close.</p>
+        <button class=" mb-3 mt-4 p-2 bg-success text-white ms-4 border border-black rounded-3">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+    <div class="card mt-3 ms-3">
+      <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\category-instant-food.jpg" class="card-img-top mt-5" alt="...">
+      <div class="card-body">
+        <p class="opacity-50 mt-4">Bakery & Biscuits</p>
+        <h6 class="card-title fw-bold">NutriChoice Digestive</h6>
+        <p class="card-text mb-4">13.5$ <strike class="opacity-50">18$</p></strike> 
+        <a href="#" class="btn btn-outline-success bg-success text-white mt-2 w-100"><i class="fa-solid fa-plus"></i>Add</a>
+      </div>
+    </div>
+    <div class="card  mt-3 ms-3">
+      <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-4.jpg" class="card-img-top mt-5" alt="...">
+      <div class="card-body">
+        <p class="opacity-50">Snack & Munchies</p>
+        <h6 class="card-title fw-bold">Onion Flavour Potato</h6>
+        <p class="card-text">13.5$ <strike class="opacity-50">18$</p></strike> 
+        <a href="#" class="btn btn-outline-success bg-success text-white mt-3 w-100"><i class="fa-solid fa-plus"></i>Add</a>
+      </div>
+    </div>
+    <div class="card  mt-3 ms-3">
+      <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\product-img-3.jpg" class="card-img-top mt-5 " alt="...">
+      <div class="card-body">
+        <p class="opacity-50">Snack & Munchies</p>
+        <h6 class="card-title fw-bold">Cadbury 5 Star Chocolate</h6>
+        <p class="card-text">13.5$ <strike class="opacity-50">18$</p></strike> 
+        <a href="#" class="btn btn-outline-success bg-success text-white mt-3 w-100"><i class="fa-solid fa-plus"></i>Add</a>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5 d-flex">
+    <div class="text">
+    <i class="fa-regular fa-clock fs-1 mb-3 mt-5 text-success"></i>
+    <h5 class="mb-3 mb-3">10 minute grocery </h5>
+    <p>Get your order delivered to <br>  your doorstep at the earliest <br>  from FreshCart pickup stores near you.</p>
+  </div>
+    <div class="text2 mt-5 ms-5">
+    <i class="fa-solid fa-gift fs-1 mb-3 text-success"></i>
+    <h5 class="mb-3">Best Prices & Offers</h5>
+    <p>Cheaper prices than your local <br> supermarket, great cashback <br>  offers to top it off. Get best pricess & offers.</p>
+  </div>
+  <div class="text mt-5 ms-5">
+    <i class="fa-solid fa-box fs-1 mb-3 text-success"></i>
+    <h5 class="mb-3">Wide Assortment</h5>
+    <p>Choose from 5000+ products <br>  across food, personal care, <br>  household, bakery, veg and non-veg & other categories.</p>
+  </div>
+  <div class="text3 mt-5 mb-5 ms-5">
+    <i class="fa-solid fa-arrows-rotate fs-1 mb-3 text-success"></i>
+    <h5 class="mb-3">Easy Returns</h5>
+    <p>Not satisfied with a product? <br> Return it at the doorstep & get a <br>  refund within hours. No questions asked policy .</p>
+  </div>
+  </div>
+  
+<div class=" bg-secondary-subtle pt-5 pb-5 ps-5 pe-5">
+  <div class="container d-flex">
+    <div class="text">
+      <h6 class="mb-3">Categories</h6>
+      <p class="opacity-75">Vegetables & Fruits</p>
+      <p class="opacity-75">Breakfast & instant food</p>
+      <p class="opacity-75">Bakery & Biscuits</p>
+      <p class="opacity-75">Atta, rice & dal</p>
+      <p class="opacity-75">Sauces & spreads</p>
+      <p class="opacity-75">Organic & gourmet</p>
+      <p class="opacity-75">Baby care</p>
+      <p class="opacity-75">Cleaning essentials</p>
+      <p class="opacity-75">Personal care</p>
+    </div>
+    <div class="text2 ms-5 mt-5">
+      <p>Dairy, bread & eggs</p>
+      <p>Cold drinks & juices</p>
+      <p>Tea, coffee & drinks</p>
+      <p>Masala, oil & more</p>
+      <p>Chicken, meat & fish</p>
+      <p>Paan corner</p>
+      <p>Pharma & wellness</p>
+      <p>Home & office</p>
+      <p>Pet care</p>
+    </div>
+    <div class="text3 ms-5">
+      <h6 class="mb-4">Get to Know us</h6>
+      <p>Company</p>
+      <p>About</p>
+      <p>Blog</p>
+      <p>Help Center</p>
+      <p>Our Value</p>
+    </div>
+    <div class="text4 ms-5">
+      <h6 class="mb-4">For Consumers</h6>
+      <p>Payments</p>
+      <p>Shipping</p>
+      <p>Product Returns</p>
+      <p>FAQ</p>
+      <p>Shop Checkout</p>
+    </div>
+    <div class="text5 ms-5">
+      <h6 class="mb-4">Become a Shopper</h6>
+      <p>Shopper Opportunities</p>
+      <p>Become a Shopper</p>
+      <p>Earnings</p>
+      <p>Ideas & Guides</p>
+      <p>New Retailers</p>
+    </div>
+    <div class="text6 ms-5">
+      <h6 class="mb-4">Freshcart programs</h6>
+      <p>Freshcart programs</p>
+      <p>Gift Cards</p>
+      <p>Promos & Coupons</p>
+      <p>Freshcart Ads</p>
+      <p>Careers</p>
+    </div>
+    
+  </div>
+  <hr>
+  <div class="container d-flex">
+  <h6 class="mt-3">Payment Partners</h6>
+  <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\amazonpay.svg" class="ms-3 mt-3" alt="">
+  <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\american-express.svg" class="ms-2 mt-3" alt="">
+  <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\mastercard.svg" class=" ms-2 mt-3" alt="">
+  <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\paypal.svg" class=" mt-3 ms-2" alt="">
+  <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\visa.svg" class=" mt-3 ms-2" alt="">
+  <h6 class="text- mt-3 ms-5">Get deliveries with FreshCart</h6>
+  <div class="text position-absolute end-0 me-5">
+  <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\appstore-btn.svg"  alt="">
+  <img src="c:\Users\N TECH\Desktop\Assets\Home _ FreshCart - eCommerce Theme_files\googleplay-btn.svg" class="me-4" alt="">
+</div>
+</div>
+<hr>
+<div class="container">
+  <p> 2022 - 2024 FreshCart eCommerce HTML Template. All rights reserved. Powered by <br>Codescandy.</p>
+  <div class="text2 float-end me-5">
+    <p>Follow us on <i class="fa-brands fa-facebook ms-2 border border-2 fs-5 p-1 rounded-3"></i><i class="fa-brands fa-twitter ms-2 fs-5 border border-2 fs-5 p-1 rounded-3"></i><i class="fa-brands fa-instagram ms-2 fs-5 border border-2 fs-5 p-1 rounded-3"></i></p>
+    
+  </div>
+</div>
+</div>
+<div class="position-fixed bottom-0 end-0 ">
+  <button class="btn btn-dark m-3 fs-5"><i class="fa-solid fa-cart-plus me-3"></i>Buy Now</button>
+</div>
+
+    
+   
+      
+      
+
+      
+</body>
+</html>
